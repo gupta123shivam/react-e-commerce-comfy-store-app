@@ -26,7 +26,7 @@ const SingleProductPage = () => {
   const history = useHistory();
 
   useEffect(() => {
-    // fetchSingleProduct(productId);
+    fetchSingleProduct(productId);
     // fetchSingleProductLocal();
   }, []);
 

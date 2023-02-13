@@ -15,12 +15,12 @@ import {
   GET_SINGLE_PRODUCT_ERROR,
 } from "../actions";
 
-let products_data = products;
-let single_products_data = single_product;
+// let products_data = products;
+// let single_products_data = single_product;
 
 // For production
-// products_data = [];
-// single_products_data = [];
+let products_data = [];
+let single_products_data = [];
 
 const initialState = {
   isSidebarOpen: true,
@@ -117,8 +117,8 @@ export const ProductsProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    // fetchProducts(url); // For production
-    fetchProductsLocal(); // For local development
+    fetchProducts(url); // For production
+    // fetchProductsLocal(); // For local development
   }, [fetchProducts]);
 
   return (
