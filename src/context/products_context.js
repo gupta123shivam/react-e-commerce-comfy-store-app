@@ -15,12 +15,8 @@ import {
   GET_SINGLE_PRODUCT_ERROR,
 } from "../actions";
 
-// let products_data = products;
-// let single_products_data = single_product;
-
-// For production
-let products_data = [];
-let single_products_data = [];
+let products_data = products;
+let single_products_data = single_product;
 
 const initialState = {
   isSidebarOpen: true,
@@ -84,7 +80,7 @@ export const ProductsProvider = ({ children }) => {
     dispatch({ type: GET_SINGLE_PRODUCT_BEGIN });
     try {
       const url = `${single_product_url}${productId}`;
-      console.log(url);
+      console.log(1,url);
       await axios(url).then((res) => {
         const single_products = res.data;
         console.log(single_products);

@@ -87,7 +87,7 @@ const SingleProductPage = () => {
               {company}
             </p>
             <hr></hr>
-            {stock > 0 && <AddToCart product={single_products} />}
+            {stock > 0 ? <AddToCart product={single_products} /> : <h4 style={{marginTop:'2rem'}}>Product Not in STock</h4>}
           </section>
         </div>
       </div>
