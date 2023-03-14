@@ -3,4 +3,4 @@
 
 ### Live Project [https://gupta123shivam-react-comfy-store-shop.netlify.app/]
 
-#### It has may features
+### It has may features
