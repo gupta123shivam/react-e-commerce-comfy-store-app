@@ -1,12 +1,44 @@
-# Comfy-Store - React E-Commerce Front-end App
-### Live Project [https://gupta123shivam-react-comfy-store-shop.netlify.app/]
+## Comfy-Store - React E-Commerce Front-end App
+👉 Live Demo: [Comfy Store](https://gupta123shivam-react-comfy-store-shop.netlify.app/)  
 
-### A React backed fully functional e-coomerce front end integrated with Stripe Payment API and Auth0  for authentication
-### Overview
-Comfy-Store is a feature-rich e-commerce web application built using React, offering users an immersive shopping experience with advanced features and seamless functionality. Leveraging modern technologies and best practices, Comfy-Store provides users with a secure and user-friendly platform for browsing and purchasing products.
+Demo Credentials
+- **Email:** john25@gmail.com
+- **Password:** 123456Aa@
+
+## About the project
+A React backed fully functional e-coomerce front end integrated with Stripe Payment API and Auth0  for authentication
+
+## Build with:
+» React JS  
+» Auth0  
+» Stripe Payment
+
+## Screenshots of the Project 📸
+- [Home](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/edit/master/README.md#about-page-)
+- About
+- Product Listing
+- Product
+- Cart
+- Checkout
+### <p align="center">Home Page 🏡</p>
+![1](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/904fa752-2e6d-4f14-96c0-fba0fe6ac501)
+---
+### <p align="center">About Page 🏡</p>
+![2](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/7b6a12f7-48fc-4687-910c-ca5783e89caa)
+---
+### <p align="center">Product Listing Page 🏡</p>
+![3](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/12b9a372-a3e0-4f48-9a03-694db2a597bd)
+---
+### <p align="center">Product Page 🏡</p>
+![4](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/df853e27-ee4f-465f-a12f-e2d4dd8957fd)
+---
+### <p align="center">Cart Page 🏡</p>
+![5](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/65fe7a05-84b9-494e-b5dd-bf872c2f72b1)
+---
+### <p align="center">Checkout Page 🏡</p>
+![6](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/0edd9cdb-34c5-433e-b40e-d4cfa94c4fc4)
 
 # Getting Started with Comfy-Store
-
 To get started with Comfy-Store and explore its rich features and functionality, follow these steps:
 
 ## 1. Access the Application
