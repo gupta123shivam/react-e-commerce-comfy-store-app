@@ -14,29 +14,40 @@ A React backed fully functional e-coomerce front end integrated with Stripe Paym
 » Stripe Payment
 
 ## Screenshots of the Project 📸
-- [Home](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/edit/master/README.md#about-page-)
-- About
-- Product Listing
-- Product
-- Cart
-- Checkout
-### <p align="center">Home Page 🏡</p>
-![1](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/904fa752-2e6d-4f14-96c0-fba0fe6ac501)
+- [Home](#home)
+- [About](#about)
+- [Product Listing](#product-listing)
+- [Product](#product)
+- [Cart](#cart)
+- [Checkout](#checkout)
+
+### <p align="center" id="home">Home Page 🏡</p>
+[![Home](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/904fa752-2e6d-4f14-96c0-fba0fe6ac501)](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/904fa752-2e6d-4f14-96c0-fba0fe6ac501)
+
 ---
-### <p align="center">About Page 🏡</p>
-![2](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/7b6a12f7-48fc-4687-910c-ca5783e89caa)
+
+### <p align="center" id="about">About Page 🏡</p>
+[![About](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/7b6a12f7-48fc-4687-910c-ca5783e89caa)](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/7b6a12f7-48fc-4687-910c-ca5783e89caa)
+
 ---
-### <p align="center">Product Listing Page 🏡</p>
-![3](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/12b9a372-a3e0-4f48-9a03-694db2a597bd)
+
+### <p align="center" id="product-listing">Product Listing Page 🏡</p>
+[![Product Listing](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/12b9a372-a3e0-4f48-9a03-694db2a597bd)](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/12b9a372-a3e0-4f48-9a03-694db2a597bd)
+
 ---
-### <p align="center">Product Page 🏡</p>
-![4](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/df853e27-ee4f-465f-a12f-e2d4dd8957fd)
+
+### <p align="center" id="product">Product Page 🏡</p>
+[![Product](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/df853e27-ee4f-465f-a12f-e2d4dd8957fd)](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/df853e27-ee4f-465f-a12f-e2d4dd8957fd)
+
 ---
-### <p align="center">Cart Page 🏡</p>
-![5](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/65fe7a05-84b9-494e-b5dd-bf872c2f72b1)
+
+### <p align="center" id="cart">Cart Page 🏡</p>
+[![Cart](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/65fe7a05-84b9-494e-b5dd-bf872c2f72b1)](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/65fe7a05-84b9-494e-b5dd-bf872c2f72b1)
+
 ---
-### <p align="center">Checkout Page 🏡</p>
-![6](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/0edd9cdb-34c5-433e-b40e-d4cfa94c4fc4)
+
+### <p align="center" id="checkout">Checkout Page 🏡</p>
+[![Checkout](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/0edd9cdb-34c5-433e-b40e-d4cfa94c4fc4)](https://github.com/gupta123shivam/react-e-commerce-comfy-store-app/assets/87575871/0edd9cdb-34c5-433e-b40e-d4cfa94c4fc4)
 
 # Getting Started with Comfy-Store
 To get started with Comfy-Store and explore its rich features and functionality, follow these steps:
