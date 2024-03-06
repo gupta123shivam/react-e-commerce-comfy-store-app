@@ -1,5 +1,5 @@
 ## Comfy-Store - React E-Commerce Front-end App
-👉 Live Demo: [Comfy Store](https://gupta123shivam-react-comfy-store-shop.netlify.app/)  
+👉 Live Demo: [Comfy Store](https://react-comfy-store-shop.netlify.app/)  
 
 Demo Credentials
 - **Email:** john25@gmail.com
