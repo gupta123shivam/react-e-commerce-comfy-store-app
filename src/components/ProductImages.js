@@ -1,20 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
-const ProductImages = ({ images }) => {
+const ProductImages = ({ images = [] }) => {
   const [main, setMain] = useState(0);
+
+  // ensure main index is valid when images change
+  useEffect(() => {
+    if (!images || images.length === 0) return;
+    if (main > images.length - 1) setMain(0);
+  }, [images, main]);
+
+  // normalize images: allow array of objects, array of strings, or empty
+  const hasImages = images && images.length > 0;
+  if (!hasImages) {
+    // nothing to show
+    return null;
+  }
+
+  const getUrl = (img) => (typeof img === "string" ? img : img?.url);
+  const getAlt = (img, idx) => (typeof img === "string" ? `image-${idx}` : img?.filename || `image-${idx}`);
 
   return (
     <Wrapper>
-      <img src={images[main].url} alt="main" className="main" />
+      <img src={getUrl(images[main])} alt="main" className="main" />
       <div className="gallery">
-        {images.map((image, idx)=>
-          <img src={image.url}
-          alt={image.filename}
-          key={idx}
-          onClick={()=>setMain(idx)}
-          className={`${image.url===images[main].url ? 'active' : null}`} />
-        )}
+        {images.map((image, idx) => (
+          <img
+            src={getUrl(image)}
+            alt={getAlt(image, idx)}
+            key={idx}
+            onClick={() => setMain(idx)}
+            className={`${getUrl(image) === getUrl(images[main]) ? "active" : ""}`}
+          />
+        ))}
       </div>
     </Wrapper>
   );
