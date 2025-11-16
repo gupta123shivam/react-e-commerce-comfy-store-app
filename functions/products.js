@@ -1,4 +1,4 @@
-const products = require('../../data/products.json');
+const products = require('../data/products.json');
 
 exports.handler = async function(event, context) {
   return {
